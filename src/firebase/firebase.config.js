@@ -1,11 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBuwPRA-OrQx9rB6y3zroiIbyb6gYj-q5E",
-  authDomain: "coding-club-pro.firebaseapp.com",
-  databaseURL: "https://coding-club-pro-default-rtdb.firebaseio.com",
-  projectId: "coding-club-pro",
-  storageBucket: "coding-club-pro.appspot.com",
-  messagingSenderId: "543771675785",
-  appId: "1:543771675785:web:e8f37ac6cb738e375fca58",
+  apiKey: "AIzaSyCEK3NYsPDpgte8JdwoUtNcWjWNEeCq9ZI",
+  authDomain: "medicare-homes.firebaseapp.com",
+  projectId: "medicare-homes",
+  storageBucket: "medicare-homes.appspot.com",
+  messagingSenderId: "1006053832681",
+  appId: "1:1006053832681:web:6d5150df7a6d19cbd73d78"
 };
+
 
 export default firebaseConfig;
