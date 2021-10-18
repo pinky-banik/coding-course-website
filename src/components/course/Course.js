@@ -4,7 +4,6 @@ import Rating from "react-rating";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar as fullStar } from "@fortawesome/free-solid-svg-icons";
 import { faStar as emptyStar } from "@fortawesome/free-regular-svg-icons";
-import Zoom from "react-reveal/Zoom";
 import { NavLink } from "react-router-dom";
 import useAuth from "../../hooks/useAuth.js";
 
@@ -15,7 +14,6 @@ const Course = ({ course }) => {
 
   return (
     <Col sm={12} md={6} lg={4}>
-      <Zoom>
         <div className="m-2">
           <Card className="mx-auto" style={{ width: "21rem" }}>
             <Card.Img variant="top" className="img-fluid" src={img} />
@@ -67,7 +65,6 @@ const Course = ({ course }) => {
             </Card.Body>
           </Card>
         </div>
-      </Zoom>
     </Col>
   );
 };
