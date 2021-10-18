@@ -1,8 +1,6 @@
 import React from "react";
 import { Form, Button, Row, Col, Container } from "react-bootstrap";
 import SectionBg from "./../../assets/images/sectionBg.png";
-import Bounce from "react-reveal/Bounce";
-import Slide from "react-reveal/Slide";
 
 const Contact = () => {
   return (
@@ -17,18 +15,13 @@ const formStyle = { background: "transparent", color: "white" };
 function ContactForm() {
   return (
     <div style={{ padding: "58px 0 40px" }}>
-      <Bounce right>
         <h2 className="text-center text-white">Contact Us</h2>
-      </Bounce>
 
-      <Bounce left>
         <p className="text-center text-muted mb-4">
           You can easily reach us through filling up the form
         </p>
-      </Bounce>
       <div>
         <Container>
-          <Slide bottom>
             <Form>
               <Row>
                 <Col sm>
@@ -80,7 +73,6 @@ function ContactForm() {
                 Submit
               </Button>
             </Form>
-          </Slide>
         </Container>
       </div>
     </div>

@@ -24,8 +24,8 @@ const SignUp = () => {
     setError,
     sendVilifiedEmail,
     setUserName,
-    error,
-  } = contexts;
+    error
+  } = useAuth();
   return (
     <div className="text-center my-4">
       <h2>Please Sign Up</h2>

@@ -152,7 +152,6 @@ const useFirebase = () => {
     signInWithGoogle,
     user,
     setUser,
-    error,
     setError,
     getPassword,
     getEmail,

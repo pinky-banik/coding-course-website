@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import sectionBg from "./../../assets/images/sectionBg.png";
-import Bounce from "react-reveal/Bounce";
-import Zoom from "react-reveal/Zoom";
 const About = () => {
   return (
     <div
@@ -10,14 +8,11 @@ const About = () => {
       className="py-5"
     >
       <Container>
-        <Zoom>
           <h2 className="text-center text-white mb-4">
             WELCOME TO CODING CLUB INSTITUTE
           </h2>
-        </Zoom>
         <Row>
           <Col md className="pe-3">
-            <Bounce bottom>
               <h5 className="text-white">About Us</h5>
               <p className="text-muted">
                 There are countless online education marketplaces on the
@@ -36,10 +31,8 @@ const About = () => {
                 - we will absolutely make sure that you run out of excuses to
                 not complete the course.
               </p>
-            </Bounce>
           </Col>
           <Col md className="pe-3">
-            <Bounce bottom>
               <h5 className="text-white">Our Vision</h5>
               <p className="text-muted">
                 To become the largest online learning ecosystem for continuing
@@ -55,22 +48,18 @@ const About = () => {
                 we aim to educate our learners with the skills they need to
                 advance their professional life to the next level.
               </p>
-            </Bounce>
           </Col>
         </Row>
 
         <Row className="mt-4">
           <Col md>
-            <Bounce bottom>
               <h5 className="text-white">Sign up for our monthly newsletter</h5>
               <p className="text-muted">
                 Be the first to know about news and updates.We never share you
                 mail with others. Trust us!
               </p>
-            </Bounce>
           </Col>
           <Col md className="d-flex align-items-center">
-            <Bounce bottom>
               <Form className="w-100">
                 <Form.Label className="text-white">
                   Leave your mail below
@@ -93,7 +82,6 @@ const About = () => {
                   </button>
                 </Form.Group>
               </Form>
-            </Bounce>
           </Col>
         </Row>
       </Container>

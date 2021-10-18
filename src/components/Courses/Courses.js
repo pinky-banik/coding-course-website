@@ -5,7 +5,7 @@ import bgImage from "./../../assets/images/sectionBg.png";
 import useCourses from "../../hooks/useCourses.js";
 
 const Courses = () => {
-  const [courses] = useCourses();
+  const {courses} = useCourses();
   return (
     <div
       style={{ background: `url(${bgImage})`, backgroundAttachment: "fixed" }}
