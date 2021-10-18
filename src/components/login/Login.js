@@ -20,7 +20,7 @@ const Login = () => {
     setError,
     setUser,
     error,
-    setLoading,
+    // setLoading,
   } = contexts;
   const location = useLocation();
   const history = useHistory();

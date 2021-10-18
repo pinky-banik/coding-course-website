@@ -1,5 +1,4 @@
 import { createContext } from "react";
-import useCart from "../hooks/useCart.js";
 import useFirebase from "../hooks/useFirebase.js";
 import useCourses from "./../hooks/useCourses.js";
 
@@ -9,15 +8,10 @@ const AuthProvider = ({ children }) => {
   // hooks
   const AllContexts = useFirebase();
   const { courses } = useCourses();
-  const { addToCart, selectedCourse, remove, setSelectedCourse } = useCart();
 
   const data = {
     AllContexts,
-    courses,
-    addToCart,
-    selectedCourse,
-    remove,
-    setSelectedCourse,
+    courses
   };
 
   return <AuthContext.Provider value={data}>{children}</AuthContext.Provider>;

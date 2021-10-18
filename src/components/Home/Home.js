@@ -8,7 +8,7 @@ import useCourses from "../../hooks/useCourses.js";
 
 const Home = () => {
   const history = useHistory();
-  const [courses] = useCourses();
+  const {courses} = useCourses();
   const featureCourses = courses.slice(0, 6);
   function GoServices() {
     history.push("/courses");

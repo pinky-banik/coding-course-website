@@ -42,13 +42,6 @@ const Header = () => {
                 Feature Courses
               </Nav.Link>
 
-              <Nav.Link as={NavLink} to="/cart" className="text-white">
-                <FontAwesomeIcon
-                  style={{ fontSize: "20px" }}
-                  icon={faShoppingCart}
-                />
-                <Badge>{selectedCourse.length}</Badge>
-              </Nav.Link>
 
               {!displayName ? (
                 <>
